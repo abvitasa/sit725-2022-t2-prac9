@@ -1,0 +1,33 @@
+<ul id="dropdown" class="dropdown-content s12 align-left">
+  <li><a href="./doctor-profile.html">Profile</a></li>
+  <li><a href="./doctor-schedule.html">My Schedule</a></li>
+  <li><a href="./doctor-appointment.html">Appointments</a></li>
+  <li class="align-center">
+    <form action="/logout" method="POST">
+      <button class="btn waves-effect waves-light transparent black-text z-depth-0" type="submit"
+        name="action">Logout</a></button>
+    </form>
+  </li>
+
+
+</ul>
+
+<nav>
+  <div class=" nav-wrapper">
+    <a href="/" class="responsive-img"><img id="getdoc-logo" src="./images/getdoc-logo.png" alt="getdoc-logo" /></a>
+    <ul class="right">
+      <li>
+        <div id="user-pic"></div>
+      </li>
+
+      <li>
+        <a class="dropdown-trigger" href="#!" data-target="dropdown"><i
+            class="large material-icons black-text text-darken-4">menu</i></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Load Navbar dropdown menu -->
+<script src="js/dropdown.js"></script>
+<script src="js/header.js"></script>
